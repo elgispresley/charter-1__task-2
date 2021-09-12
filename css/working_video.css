@@ -1,0 +1,143 @@
+.working_video {
+	background: url("../img/Rectangle\ 5.png");
+	height: 1140px;
+	z-index: 10;
+	position: relative;
+	padding-top: 70px;
+}
+.working_video:after {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 50%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: white;
+}
+.working_video__header {
+	text-align: center;
+}
+.working_video__header h3 {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 53px;
+	text-align: center;
+	color: #ffffff;
+}
+.working_video__header p {
+	margin-top: 30px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 70px;
+}
+.video__container {
+	background-image: url("../img/Rectangle\ 6.png");
+	background-size: cover;
+	height: 430px;
+	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+	border-radius: 10px;
+	z-index: 15;
+}
+.working_video__hr {
+	margin-top: 85px;
+	border: 1px solid #e0e0e0;
+}
+.img__1 {
+	position: absolute;
+	margin-right: 150px;
+}
+.img__2 {
+	position: absolute;
+}
+.video__container p {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 25px;
+	color: #ffffff;
+	margin-top: 75px;
+	margin-left: 90px;
+}
+.play__button {
+	position: absolute;
+	width: 300px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 165px;
+	margin-left: 405px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+.play__button:hover {
+	transform: scale(1.03);
+}
+
+.mailing {
+	margin-top: 85px;
+	text-align: center;
+}
+.mailing h3 {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #000000;
+}
+.mail_paragrah {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	color: #999999;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.mailing input {
+	background: #ffffff;
+	border: 1px solid #f2f2f2;
+	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+	border-radius: 30px 0px 0px 30px;
+	width: 299px;
+	height: 45px;
+	font-size: 13px;
+	line-height: 21px;
+	color: #999999;
+	padding-left: 33px;
+	text-decoration: none;
+	outline: none;
+}
+.mailing button {
+	height: 45px;
+	width: 199px;
+	background: #4985ff;
+	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+	border-radius: 0px 30px 30px 0px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 20px;
+	color: #ffffff;
+	cursor: pointer;
+	border: none;
+	outline: none;
+}
+.mailing button:hover {
+	background: #4986ffde;
+}
+.mailing h6 {
+	font-size: 13px;
+	line-height: 21px;
+	color: #999999;
+	margin-top: 35px;
+	margin-bottom: 85px;
+}
+.mail {
+	display: flex;
+	margin: 0 auto;
+	margin-left: 307px;
+}

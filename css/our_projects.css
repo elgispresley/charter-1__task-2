@@ -21,7 +21,7 @@
 	justify-content: space-between;
 }
 
-.our_projects__container  button {
+.our_projects__container button {
 	color: white;
 	width: 200px;
 	height: 45px;
@@ -32,14 +32,16 @@
 	cursor: pointer;
 	font-size: 16px;
 	margin-top: 50px;
+	margin-bottom: 130px;
+	outline: none;
 }
-.our_projects__container  button:hover {
+.our_projects__container button:hover {
 	background: #4986ffca;
 }
 .projects img {
 	cursor: pointer;
 	transition: 0.3s;
 }
-.projects img:hover{
-   transform: scale(1.03);
+.projects img:hover {
+	transform: scale(1.03);
 }
