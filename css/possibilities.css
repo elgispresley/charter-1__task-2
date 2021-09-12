@@ -1,0 +1,55 @@
+.possibilities {
+	background-color: #F6F6F8;
+}
+.possibilities__paragraf {
+	display: flex;
+	padding-top: 100px;
+}
+.possibilities__paragraf__text {
+	width: 489px;
+	height: 295px;
+	margin-top: 52px;
+}
+.possibilities__paragraf__text h2 {
+	font-size: 36px;
+	font-weight: bold;
+	font-style: normal;
+}
+.possibilities__paragraf__text p{
+   margin-top: 40px;
+	font-size: 16px;
+	color: #999999;
+	margin-bottom: 30px;
+}
+.possibilities__paragraf__text a{
+	text-decoration-line: underline;
+	color: #4985FF;
+}
+.possibilities__paragraf img {
+	margin-left: 121px;
+	margin-bottom: 90px;
+}
+.possibilities__our__projects {
+	display: flex;
+	justify-content: space-around;
+}
+.possibilities__our__projects__project {
+	display: flex;
+	flex-wrap: wrap;
+	width: 104px;
+	height: 67px;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+.possibilities__our__projects__project h3{
+  font-size: 36px;
+  margin-left: 20px;
+}
+.possibilities__our__projects__project p{
+  font-size: 16px;
+  color: #999999;
+  margin-top: 17px;
+}
+.possibilities__hr {
+	border: 1px solid #E0E0E0;
+}

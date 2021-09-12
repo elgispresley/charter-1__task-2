@@ -1,0 +1,45 @@
+.our_projects {
+	background: #f6f6f8;
+	padding-top: 100px;
+}
+.our_projects__container {
+	text-align: center;
+}
+.our_projects__header h2 {
+	font-size: 36px;
+	color: #323232;
+	font-weight: bold;
+}
+.our_projects__header p {
+	color: #999999;
+	font-size: 16px;
+	margin-top: 50px;
+}
+.projects {
+	margin-top: 70px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.our_projects__container  button {
+	color: white;
+	width: 200px;
+	height: 45px;
+	border: none;
+	background: #4985ff;
+	box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+	border-radius: 30px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: 50px;
+}
+.our_projects__container  button:hover {
+	background: #4986ffca;
+}
+.projects img {
+	cursor: pointer;
+	transition: 0.3s;
+}
+.projects img:hover{
+   transform: scale(1.03);
+}
